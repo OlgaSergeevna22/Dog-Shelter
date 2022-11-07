@@ -114,6 +114,10 @@ nav a:hover {
     text-decoration: none;
 }
 
+.right-dark a:hover {
+    background-color: #FDDCC4;
+}
+
 .left-dark {
     width: 698px;
     height: 728px;
@@ -346,6 +350,10 @@ nav a:hover {
     border-radius: 9px;
 }
 
+.num:hover {
+    background-color: #FDDCC4;
+}
+
 .num ::before {
     display: inline-block;
     content: '';
@@ -404,6 +412,7 @@ footer p {
 
 footer a {
     color: #F1CDB3;
+    text-decoration: none;
 }
 
 footer .email {
