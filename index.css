@@ -344,24 +344,15 @@ nav a:hover {
 
 .num {
     display: inline-block;
-    padding: 10px 15px 10px 15px;
+    padding: 10px 15px 10px 60px;
     border: 2px #F1CDB3 solid;
     background-color: #F1CDB3;
     border-radius: 9px;
+    background: url(images/icon-email.svg) no-repeat left center;
 }
 
 .num:hover {
     background-color: #FDDCC4;
-}
-
-.num ::before {
-    display: inline-block;
-    content: '';
-    background-image: url(images/credit-card.svg);
-    width: 30px;
-    height: 23px;
-    background-repeat: no-repeat;
-    margin-right: 15px;
 }
 
 .num a {
@@ -382,6 +373,10 @@ nav a:hover {
 footer {
     background: linear-gradient(90.26deg, #7D604B 0.23%, #251000 99.8%);
     padding-top: 40px;
+}
+
+footer img {
+    display: block;
 }
 
 footer .flex-wrapper>div {
