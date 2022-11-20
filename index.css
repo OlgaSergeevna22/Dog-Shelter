@@ -193,7 +193,6 @@ nav a:hover {
 .pets {
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     margin: 60px 0;
 }
 
@@ -201,7 +200,10 @@ nav a:hover {
     background-color: #FAFAFA;
     flex-basis: 270px;
     text-align: center;
-    padding-bottom: 30px;
+}
+
+.pet-card img {
+    display: block;
 }
 
 .two {
@@ -214,7 +216,7 @@ nav a:hover {
 
 .learn-more {
     display: inline-block;
-    padding: 15px 45px;
+    padding: 13px 43px;
     border: 2px #F1CDB3 solid;
     border-radius: 100px;
     font-weight: 400;
@@ -223,6 +225,7 @@ nav a:hover {
     color: #292929;
     text-decoration: none;
     line-height: 22px;
+    margin-bottom: 30px;
 }
 
 .learn-more:hover {
@@ -269,7 +272,7 @@ nav a:hover {
 
 .get a {
     display: inline-block;
-    padding: 15px 45px;
+    padding: 13px 43px;
     border: 2px #F1CDB3 solid;
     background: #F1CDB3;
     border-radius: 100px;
@@ -314,9 +317,11 @@ nav a:hover {
 }
 
 .help img {
+    display: block;
     width: 60px;
     height: 60px;
     text-align: center;
+    margin: auto;
 }
 
 .help p {
@@ -327,6 +332,7 @@ nav a:hover {
     color: #545454;
     margin-top: 30px;
     text-align: center;
+    line-height: 23px;
 }
 
 .gray-second {
