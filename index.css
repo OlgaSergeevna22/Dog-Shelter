@@ -610,3 +610,20 @@
             margin-right: 43px;
         }
     }
+    
+    @media(max-width:600px) {
+        .right-dark>img {
+            width: 260px;
+            height: 272px;
+            margin-top: 105px;
+        }
+        .left-white-first img {
+            width: 260px;
+            height: 354px;
+            margin-top: 42px;
+        }
+        .left-gray-second img {
+            width: 260px;
+            height: 135px;
+        }
+    }
