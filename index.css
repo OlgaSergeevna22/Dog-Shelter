@@ -23,7 +23,6 @@
     
     .menu {
         display: none;
-        background-image: url(images/Burger.png);
     }
     
     .flex-wrapper {
@@ -628,9 +627,39 @@
         nav a {
             display: none;
         }
+        nav {
+            position: absolute;
+        }
         .menu {
             display: block;
             margin-right: 43px;
+        }
+        .btn>img {
+            cursor: pointer;
+        }
+        .left-dark h2 {
+            font-size: 25px;
+            line-height: 32px;
+        }
+        .right-white-first h3 {
+            font-size: 25px;
+            line-height: 32px;
+        }
+        .name h3 {
+            font-size: 25px;
+            line-height: 32px;
+        }
+        .white-second h3 {
+            font-size: 25px;
+            line-height: 32px;
+        }
+        .right-gray-second h3 {
+            font-size: 25px;
+            line-height: 32px;
+        }
+        footer .flex-wrapper h3 {
+            font-size: 25px;
+            line-height: 32px;
         }
     }
     

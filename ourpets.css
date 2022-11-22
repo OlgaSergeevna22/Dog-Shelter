@@ -18,6 +18,10 @@ header {
     background-color: #fff;
 }
 
+.menu {
+    display: none;
+}
+
 .flex-wrapper {
     display: flex;
     justify-content: space-between;
@@ -248,4 +252,120 @@ footer .tel {
 footer .marker {
     background: url(images/icon-marker.svg) no-repeat left center;
     padding-left: 42px;
+}
+
+@media(max-width:1240px) {
+    .container {
+        max-width: 95%;
+    }
+}
+
+@media(max-width:1205px) {
+    main {
+        padding: 60px 0 70px;
+    }
+    .pet-card {
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        flex-basis: 30%;
+    }
+    .pet-card img {
+        display: block;
+        margin: auto;
+    }
+    .pet-card:nth-last-child(1),
+    .pet-card:nth-last-child(2) {
+        display: none;
+    }
+}
+
+@media(max-width:1070px) {
+    footer {
+        padding-top: 30px;
+    }
+    .waiting {
+        margin: 0 0 65px 60px;
+    }
+    .questions,
+    .waiting,
+    .footer-puppy {
+        flex-basis: 34%;
+        align-items: center;
+    }
+    footer .flex-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media(max-width:912px) {
+    footer {
+        padding-top: 30px;
+    }
+    .waiting {
+        text-align: center;
+        margin: 40px auto;
+    }
+    .questions,
+    .footer-puppy {
+        text-align: center;
+        margin: 0 auto;
+    }
+    footer .flex-wrapper {
+        display: block;
+    }
+}
+
+@media(max-width:875px) {
+    .pet-card {
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        flex-basis: 45%;
+    }
+    .pet-card img {
+        display: block;
+        margin: auto;
+    }
+    .pet-card:nth-last-child(1),
+    .pet-card:nth-last-child(2) {
+        display: none;
+    }
+}
+
+@media(max-width:715px) {
+    nav a {
+        display: none;
+    }
+    nav {
+        position: absolute;
+    }
+    .menu {
+        display: block;
+        margin-right: 43px;
+    }
+    .btn>img {
+        cursor: pointer;
+    }
+}
+
+@media(max-width:600px) {
+    .pets {
+        justify-content: center;
+    }
+    .pet-card {
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+        flex-basis: 95%;
+    }
+    .pet-card img {
+        display: block;
+        margin: auto;
+    }
+    .pet-card:nth-last-child(1),
+    .pet-card:nth-last-child(2),
+    .pet-card:nth-last-child(3),
+    .pet-card:nth-last-child(4),
+    .pet-card:nth-last-child(5) {
+        display: none;
+    }
 }
