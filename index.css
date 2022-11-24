@@ -8,6 +8,12 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     
+    button {
+        cursor: pointer;
+        background: none;
+        border: none;
+    }
+    
     .container {
         max-width: 1200px;
         margin: auto;
@@ -611,12 +617,12 @@
         .right {
             right: 50%;
             transform: translateX(92px);
-            top: 0;
+            top: auto;
         }
         .left {
             left: 50%;
             transform: translateX(-92px);
-            bottom: 0;
+            top: auto;
         }
         .get {
             margin-top: 144px;
