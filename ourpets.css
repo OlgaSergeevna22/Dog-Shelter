@@ -144,7 +144,7 @@ h1 {
 .pets-nav {
     border-radius: 50%;
     width: 340px;
-    margin: auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }

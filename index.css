@@ -611,7 +611,7 @@
         .right {
             right: 50%;
             transform: translateX(92px);
-            bottom: -132px;
+            top: 0;
         }
         .left {
             left: 50%;
