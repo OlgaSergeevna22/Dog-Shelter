@@ -614,15 +614,20 @@
         .one {
             justify-content: center;
         }
+        .pets {
+            position: relative;
+        }
         .right {
             right: 50%;
             transform: translateX(92px);
             top: auto;
+            bottom: -70px;
         }
         .left {
             left: 50%;
             transform: translateX(-92px);
             top: auto;
+            bottom: -70px;
         }
         .get {
             margin-top: 144px;
