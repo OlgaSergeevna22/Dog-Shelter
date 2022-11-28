@@ -134,6 +134,7 @@
     
     .left-dark a:hover {
         background-color: #FDDCC4;
+        border: 2px #FDDCC4 solid;
     }
     
     .right-dark img {
@@ -238,6 +239,7 @@
     
     .learn-more:hover {
         background-color: #FDDCC4;
+        border: 2px #FDDCC4 solid;
     }
     
     .pet-card p {
@@ -271,6 +273,7 @@
     
     .pets-nav-btn:hover {
         background-color: #FDDCC4;
+        border: 1px #FDDCC4 solid;
     }
     
     .get {
@@ -294,6 +297,7 @@
     
     .get a:hover {
         background-color: #FDDCC4;
+        border: 2px #FDDCC4 solid;
     }
     
     .white-second {
@@ -751,5 +755,19 @@
             margin: 0 15px 30px;
             flex-basis: 35%;
             text-align: center;
+        }
+        .contacts {
+            font-size: 15px;
+            line-height: 24px;
+            color: #545454;
+            letter-spacing: 0.05em;
+        }
+    }
+    
+    @media(max-width:390px) {
+        .right-gray-second img {
+            position: absolute;
+            left: 34px;
+            top: 30px;
         }
     }

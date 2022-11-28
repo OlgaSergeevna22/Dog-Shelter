@@ -136,6 +136,7 @@ h1 {
 
 .learn-more:hover {
     background-color: #FDDCC4;
+    border: 2px #FDDCC4 solid;
 }
 
 .pet-card p {
@@ -192,6 +193,7 @@ h1 {
 
 .pets-nav .active-nav:hover {
     background-color: #FDDCC4;
+    border: 1px #FDDCC4 solid;
 }
 
 footer {
@@ -351,6 +353,21 @@ footer .marker {
     }
     .btn>img {
         cursor: pointer;
+    }
+    h1 {
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 32px;
+        letter-spacing: 0.06em;
+        color: #545454;
+    }
+    .questions h3,
+    .waiting h3 {
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 32px;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
     }
 }
 
